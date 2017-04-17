@@ -2,8 +2,7 @@
     <%@ page import="example.Login"%>  
     <jsp:useBean id="obj" class="example.LoginProcess"/>  
       
-    <jsp:setProperty property="*" name="obj"/>  
-      
+    <jsp:setProperty property="*" name="obj"/>    
     <%  
     boolean status=Login.validate(obj);  
     if(status){  
